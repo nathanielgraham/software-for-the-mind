@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nathaniel Graham</title>
+<style>
+  :root {
+    --bg: #0a0a0c;
+    --card: #121216;
+    --text: #e8e8ec;
+    --muted: #8a8a96;
+    --accent: #c9a227;
+    --border: #2a2a32;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent);
+    margin-bottom: 1rem;
+  }
+  h1 { font-size: 1.75rem; font-weight: 600; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); margin-top: 0.35rem; font-size: 0.95rem; }
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1rem;
+  }
+  .links a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .links a:hover { text-decoration: underline; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.35rem 1.4rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.85rem;
+    color: var(--accent);
+  }
+  ul { list-style: none; }
+  li { margin-bottom: 0.75rem; }
+  a { color: var(--text); text-decoration: none; }
+  a:hover { color: var(--accent); }
+  .desc { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
+  .note { color: var(--muted); font-size: 0.85rem; margin-top: 0.6rem; }
+  p { margin-bottom: 0.65rem; }
+  p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+  <header>
+    <img class="avatar" src="avatar.jpg" alt="Avatar">
+    <h1>Nathaniel Graham</h1>
+    <p class="tagline">Software · Chess · Fitness & Yoga</p>
+    <div class="links">
+      <a href="https://github.com/nathanielgraham" target="_blank">GitHub</a>
+      <a href="https://x.com/loval72" target="_blank">X</a>
+      <a href="https://www.chess.com/member/farcicalbungler" target="_blank">Chess.com</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Software</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/nathanielgraham/ordo" target="_blank">Ordo</a>
+        <div class="desc">AI-native job scheduler (Perl/Mojolicious + real-time web UI with WebSockets)</div>
+      </li>
+      <li>
+        <a href="https://github.com/nathanielgraham/cron-toolkit-perl" target="_blank">Cron::Toolkit</a>
+        <div class="desc">Full Quartz-style cron expressions for Perl · <a href="https://metacpan.org/pod/Cron::Toolkit" target="_blank">MetaCPAN</a></div>
+      </li>
+      <li>
+        <a href="https://github.com/nathanielgraham/chess-coach" target="_blank">chess-coach</a>
+        <div class="desc">Grok skill + CLI: pull public Lichess/Chess.com games, score time management against priors, slice by color and opening, and identify one or two bottlenecks</div>
+      </li>
+      <li>
+        <a href="https://github.com/nathanielgraham/Poker-Eval" target="_blank">Poker-Eval</a>
+        <div class="desc">Deal, score, and estimate equity across many poker variants (Hold’em, Omaha, draw, stud, Badugi, etc.)</div>
+      </li>
+      <li>
+        <a href="https://github.com/nathanielgraham" target="_blank">All projects</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Software for the Mind</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/nathanielgraham/A-Practical-System-for-Clear-Communication-with-AI-and-Humans" target="_blank">9-Step Communication System</a>
+        <div class="desc">Practical framework (ED, LS, CA, QP, VT, EC, RA, FC, CTA) for clearer thinking and better responses from AIs. Usually only a subset is needed.</div>
+      </li>
+      <li>
+        <a href="regulation.md">Regulating the Four Basic Drives</a>
+        <div class="desc">Observe which drive is active (food, sleep, sex, self-preservation), then adjust one variable and track it for a week. Supporting map: the four jobs of the mind.</div>
+      </li>
+      <li>
+        <a href="habit-change.md">Changing Habit Patterns</a>
+        <div class="desc">Swami Rama’s method for working with deep impressions, updated with modern habit science: regulate drives, observe urges, and practice new responses with less friction.</div>
+      </li>
+      <li>
+        <a href="three-gears.md">Three Gears</a>
+        <div class="desc">Force the size of the mental model to match available time and attention. Tiny complete pictures beat larger incomplete ones.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Chess</h2>
+    <ul>
+      <li>
+        <a href="https://ratings.fide.com/profile/2007983" target="_blank">FIDE Master</a>
+        <div class="desc">Profile 2007983 · tournament play is rare these days</div>
+      </li>
+      <li>
+        <a href="https://www.chess.com/member/farcicalbungler" target="_blank">Chess.com — farcicalbungler</a>
+      </li>
+      <li>
+        <a href="https://github.com/nathanielgraham/chess-coach" target="_blank">chess-coach</a>
+        <div class="desc">
+          Pull your own public games, score time use against control priors, and find the one or two real leaks. Tiny complete mental models outperform larger incomplete ones; the coach switches models based on remaining clock.<br><br>
+          Practical training: treat double-digit thinks as a scarce budget, review only the long sits, and drill technical conversions on a short clock.
+        </div>
+      </li>
+      <li>
+        <a href="three-gears.md">Three Gears</a>
+        <div class="desc">Concrete time-management method: CCT → tiny model → working model. Force the size of the model to match the remaining clock.</div>
+      </li>
+    </ul>
+    <p class="note">Blitz rating rose roughly 200 points after focusing on the biggest bottlenecks instead of trying to fix everything at once.</p>
+  </section>
+
+  <section>
+    <h2>Fitness / Health</h2>
+    <p class="desc">Notes on diet, training, and practical regulation. More coming.</p>
+  </section>
+</body>
+</html>
